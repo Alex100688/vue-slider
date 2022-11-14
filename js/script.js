@@ -3,7 +3,7 @@ const { createApp } = Vue
 createApp({
   data() {
     return {
-      
+        figureAcrive: 0,
          slides: [
       {
           image: 'img/01.webp',
