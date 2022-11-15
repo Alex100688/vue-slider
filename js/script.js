@@ -33,14 +33,14 @@ createApp({
     methods: {
         prevFigure() {
             if (this.figureActive === 0) {
-                this.figureActive = this.slides.image.length - 1
+                this.figureActive = this.slides.length - 1
             }else{
                 this.figureActive --;
             }
         },
 
         nextFigure(){
-            if (this.figureActive === this.slides.image.length - 1 ) {
+            if (this.figureActive === this.slides.length - 1 ) {
                 this.figureActive=0;
             } else{
                 this.figureActive ++;
